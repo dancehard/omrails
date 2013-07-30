@@ -1,0 +1,23 @@
+$baseFontFamily: Expletus Sans;
+@import url(http://fonts.googleapis.com/css?family=Expletus+Sans:400,500,600,400italic,500italic,600italic,700,700italic);
+
+$btnPrimaryBackground: green; 
+$navbarBackgroundHighlight: white;
+$navbarBackground: white; 
+
+@import 'bootstrap';
+
+body {
+	padding-top: 60px;
+}
+@import 'bootstrap-responsive';
+
+
+.footer {
+
+	margin-top: 50px;
+	color: $grayLight;
+	a{
+		color: $gray;
+	}
+}
